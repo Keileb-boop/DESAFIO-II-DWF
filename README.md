@@ -70,3 +70,22 @@ http://localhost:8081/h2-console
   JDBC URL: jdbc:h2:mem:booksdb
 
 📮 Test the API with Postman and Swagger
+
+*********************************************************************************
+
+-You can use Postman to test each of the API endpoints.
+
+  ✔️​GET http://localhost:8081/api/books → List all books
+
+  ✔️​GET http://localhost:8081/api/books/{id} → Display a book by ID
+
+  ✔️​POST http://localhost:8081/api/books → Create a new book
+
+  ✔️​PUT http://localhost:8081/api/books/{id} → Update a book
+
+  ✔️​DELETE http://localhost:8081/api/books/{id} → Delete a book
+
+  and we add that can search a book by the title:
+
+  ✔️​GET http://localhost:8081/api/books
+
